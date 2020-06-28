@@ -1,17 +1,17 @@
-<img width="800" src="./assets/idiot-logo.png" alt="idIoT">
+<img width="800" src="./assets/covidiot-logo.png" alt="covidIoT">
 ---
 <img width="800" src="./assets/screenshot.png" alt="IoT Made Simple">
 
-idIoT is an IoT environment based on [NodeMCU + ESP8266](http://nodemcu.com/index_en.html).
+covidIoT is an IoT environment based on [NodeMCU + ESP8266](http://nodemcu.com/index_en.html).
 NodeMCU is an open-source firmware and development kit that helps 
 you to prototype your IoT product within a few Lua script lines.
 
-**idIoT** tries to make **NodeMCU** environment easier to develop using
+**covidIoT** tries to make **NodeMCU** environment easier to develop using
 MoonScript and the **idiot framework**.
 
 ## Overview
 
-idIoT uses **MoonScript** to make coding easier for NodeMCU development.
+covidIoT uses **MoonScript** to make coding easier for NodeMCU development.
 
 **Writing a blinking LED is _THAT_ easy:**
 ```moonscript
@@ -44,19 +44,19 @@ pip install esptool   # Install ESPTool to interact with NodeMCU
 luarocks install moonscript --local # Install MoonScript
 ```
 
-### 3. Download idIoT
+### 3. Download covidIoT
 
-idIoT is where the magic starts:
+covidIoT is where the magic starts:
 
 ```bash
-git clone http://github.com/f/idiot.git
-cd idiot
+git clone http://github.com/MrPeker/covidiot.git
+cd covidiot
 make install
 ```
 
 ## Firmware
 
-<img width="500" src="./assets/nodemcu.png" alt="idIoT">
+<img width="500" src="./assets/nodemcu.png" alt="covidIoT">
 
 ### Enabled Modules
 `cjson` `cron` `encoder` `enduser_setup` `file` `gpio`
